@@ -8,7 +8,7 @@ using System.ComponentModel.Design;
 
 namespace Testing.Models
 {
-    public class ProductRepository
+    public class ProductRepository : IProductRepository
     {
         private readonly IDbConnection _conn;
         public ProductRepository(IDbConnection conn)

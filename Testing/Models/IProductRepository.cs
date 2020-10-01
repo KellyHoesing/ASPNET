@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Testing.Models
 {
-    interface IProductRepository
+    public interface IProductRepository
     {
         public IEnumerable<Product> GetAllProducts();
     }
